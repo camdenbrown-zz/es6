@@ -1,0 +1,23 @@
+{
+  "name": "es6",
+  "version": "6.10.2",
+  "description": "A project for practicing ES6 principles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava --tap | tap-nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camdenbrown/es6.git"
+  },
+  "author": "Camden Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camdenbrown/es6/issues"
+  },
+  "homepage": "https://github.com/camdenbrown/es6#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "tap-nyan": "^1.1.0"
+  }
+}
