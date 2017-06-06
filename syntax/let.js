@@ -28,3 +28,10 @@ function updateProductId() {
 let productId = null;
 updateProductId();
 console.log(productId);
+
+// The for loop productId is scoped to its block and not outside of it
+let productId = 42;
+for (let productId = 0; productId < 10; productId++){
+
+}
+console.log(productId); // 42
