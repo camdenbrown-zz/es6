@@ -4,7 +4,7 @@
   "description": "A project for practicing ES6 principles.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava --tap | tap-nyan"
+    "test": "ava --tap | tap-nyan"
   },
   "repository": {
     "type": "git",
