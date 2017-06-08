@@ -20,5 +20,17 @@
     "ava": "^0.19.1",
     "babel-register": "^6.24.1",
     "tap-nyan": "^1.1.0"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  },
+  "ava": {
+    "require": ["babel-register"],
+    "files": [
+      "test/**/*.test.js"
+    ],
+    "source": [
+      "syntax/**/*.js"
+    ]
   }
 }
